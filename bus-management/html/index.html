@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="/CSDL-BTL/bus-management/css/style.css">
+    <link rel="stylesheet" href="/CSDL-BTL/bus-management/html/fontawesome/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <h3>Bus Management</h3>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li class="active"><a href="#"><i class="fas fa-th-large"></i> Dashboard</a></li>
+                    <li><a href="#"><i class="fas fa-route"></i> Tuyến Xe</a></li>
+                    <li><a href="#"><i class="fas fa-map-marker-alt"></i> Điểm Dừng</a></li>
+                    <li><a href="#"><i class="fas fa-bus"></i> Xe Buýt</a></li>
+                    <li><a href="#"><i class="fas fa-user-friends"></i> Tài Xế</a></li>
+                    <li><a href="#"><i class="fas fa-calendar-alt"></i> Lịch Chạy</a></li>
+                    <li><a href="#"><i class="fas fa-ticket-alt"></i> Vé Xe</a></li>
+                    <li><a href="#"><i class="fas fa-users"></i> Hành Khách</a></li>
+                    <li><a href="#"><i class="fas fa-comment-dots"></i> Phản Hồi</a></li>
+                    <li><a href="#"><i class="fas fa-screwdriver-wrench"></i> Bảo Trì</a></li>
+                    <li><a href="/CSDL-BTL/bus-management/html/report.html"><i class="fas fa-chart-bar"></i> Báo Cáo</a></li>
+                    <li><a href="#"><i class="fas fa-cog"></i> Cài Đặt</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="navbar">
+                <h2>Dashboard</h2>
+                </header>
+
+            <section class="dashboard-cards">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-route"></i></div>
+                    <div class="card-content">
+                        <span class="card-title">Tuyến Xe</span>
+                        <span class="card-value">15</span>
+                        <span class="card-description">tuyến đang hoạt động</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-bus"></i></div>
+                    <div class="card-content">
+                        <span class="card-title">Xe Buýt</span>
+                        <span class="card-value">42</span>
+                        <span class="card-description">xe đang hoạt động</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-user-friends"></i></div>
+                    <div class="card-content">
+                        <span class="card-title">Tài Xế</span>
+                        <span class="card-value">38</span>
+                        <span class="card-description">tài xế đang làm việc</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-calendar-alt"></i></div>
+                    <div class="card-content">
+                        <span class="card-title">Lịch Chạy</span>
+                        <span class="card-value">120</span>
+                        <span class="card-description">lịch chạy trong tháng</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="dashboard-charts">
+                <div class="chart-card">
+                    <h3>Thống Kê Vé Bán Ra</h3>
+                    <div class="chart-placeholder bar-chart">
+                        <div class="bar-month">Tháng 1 <div class="bar" style="height: 60%;"></div></div>
+                        <div class="bar-month">Tháng 2 <div class="bar" style="height: 45%;"></div></div>
+                        <div class="bar-month">Tháng 3 <div class="bar" style="height: 55%;"></div></div>
+                        <div class="bar-month">Tháng 4 <div class="bar" style="height: 70%;"></div></div>
+                        <div class="bar-month">Tháng 5 <div class="bar" style="height: 85%;"></div></div>
+                        <div class="bar-month">Tháng 6 <div class="bar" style="height: 100%;"></div></div>
+                    </div>
+                </div>
+                <div class="chart-card">
+                    <h3>Tuyến Xe Phổ Biến</h3>
+                    <div class="chart-placeholder horizontal-bar-chart">
+                        <div class="bar-item">Tuyến 01 <div class="bar" style="width: 75%;"></div></div>
+                        <div class="bar-item">Tuyến 02 <div class="bar" style="width: 65%;"></div></div>
+                        <div class="bar-item">Tuyến 03 <div class="bar" style="width: 70%;"></div></div>
+                        <div class="bar-item">Tuyến 04 <div class="bar" style="width: 55%;"></div></div>
+                        <div class="bar-item">Tuyến 05 <div class="bar" style="width: 80%;"></div></div>
+                        <div class="x-axis">
+                            <span>0</span><span>150</span><span>300</span><span>450</span><span>600</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="dashboard-summary">
+                <div class="summary-card">
+                    <div class="card-icon"><i class="fas fa-users"></i></div>
+                    <div class="card-content">
+                        <span class="card-title">Hành Khách</span>
+                        <span class="card-value">1250</span>
+                        <span class="card-description"></span>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="card-icon"><i class="fas fa-ticket-alt"></i></div>
+                    <div class="card-content">
+                        <span class="card-title">Vé Xe</span>
+                        <span class="card-value">3680</span>
+                        <span class="card-description"></span>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="card-icon"><i class="fas fa-comment-dots"></i></div>
+                    <div class="card-content">
+                        <span class="card-title">Phản Hồi</span>
+                        <span class="card-value">145</span>
+                        <span class="card-description"></span>
+                    </div>
+                </div>
+                </section>
+        </main>
+    </div>
+</body>
+</html>
